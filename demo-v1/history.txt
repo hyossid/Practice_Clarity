@@ -1,0 +1,6 @@
+#V2
+(contract-call? .voting get-winner)
+(contract-call? .voting vote-for-candidate1)
+(contract-call? .voting close-vote)
+(contract-call? .voting vote-for-candidate1)
+(contract-call? .voting get-winner)
